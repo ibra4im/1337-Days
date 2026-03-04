@@ -1,0 +1,12 @@
+#include <unistd.h>
+
+void ft_putchar(char *c)
+{
+    write(2,c,1);
+}
+
+int main()
+{
+    char c = 'p';
+    ft_putchar(&c);
+}
