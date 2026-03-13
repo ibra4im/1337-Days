@@ -12,9 +12,3 @@ int     ft_str_is_lowercase(char *str)
     }
     return (1);
 }
-#include <stdio.h>
-int main()
-{
-    char str[] = {"kfjgkfjgfkjgd"};
-    printf("%d",ft_str_is_lowercase(str));
-}
