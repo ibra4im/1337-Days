@@ -18,6 +18,7 @@ char    *ft_strstr(char *str,char *to_find)
         }
         i++;
     }
+    return (str);
 }
 #include <stdio.h>
 int main()
