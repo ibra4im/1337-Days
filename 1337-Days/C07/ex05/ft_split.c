@@ -79,7 +79,6 @@ char    **ft_split(char *str, char *charset)
     return res;
 }
 #include <unistd.h>
-#include <string.h>
 int main()
 {
     char *s = "hello,brahim,cv";
